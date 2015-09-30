@@ -1,0 +1,47 @@
+.navbar-default{
+	background-color:#B5212F;
+	border-color: #660000;
+
+	.navbar-nav{
+	 li{
+	   	 a{			
+			font:lighter 15px $font_first;
+			color: white;
+			&:hover, &:focus{
+				color: white;
+			}
+
+			.glyphicon{
+				float: left;
+				margin: -4px 10px 0 0;
+				font-size: 25px;
+			}
+		}	
+	  }	
+
+		>.active>a{
+			border-radius: 2px;
+			background-color: #9A1D29;
+			color: #fff;
+			padding-right: 18px;
+			&:hover, &:focus{
+				background-color: #9A1D29;
+				color: #fff;
+			}
+		}
+	}
+	.navbar-toggle .icon-bar{
+		background-color: #fff;
+		border-color: #fff;
+	}
+
+	.navbar-toggle{
+		border-color: #fff;
+		&:hover, &:focus{
+			background:none;
+		}
+	}
+	.navbar-collapse{
+		border: none;
+	}
+}

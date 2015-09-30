@@ -1,0 +1,10 @@
+@media(max-width: 768px){
+	.input-group{
+		display: block;
+	}
+
+	#search-container__form{
+		margin: 0;
+		background: #000;
+	}
+}

@@ -1,0 +1,15 @@
+@media(max-width: 768px){
+	.input-group{
+		display: block;
+	}
+
+	#search-container__form{
+		margin: 15px;
+	}
+}
+
+@media(min-width: 768px){
+  #search-container__form{
+	margin-top: 54px;
+ }
+}
