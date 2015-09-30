@@ -1,0 +1,52 @@
+body{
+	>header{
+		#logo-container{
+			@include make-xs-column(12);
+			@include make-md-column(4);
+
+			>#logo-container__logo{
+				@include make-md-column(11);
+				margin-top: 30px;
+			}
+		}
+		#search-container{
+			@include make-xs-column(12);
+			@include make-md-column(5);
+			@include make-md-column-offset(3);
+
+			> #search-container__form{
+				@include make-md-column(11);
+				margin-top: 54px;
+
+				.form-control{
+					padding-right: 17px;
+					font:bold 12px $font_first;
+					color: #cccccc;
+					height: 40px;
+					border-radius: 2px;
+					box-shadow: none;
+					border: none;
+					border-radius: 2px;
+					border-left: none;
+
+				}
+
+				.form-control::-webkit-input-placeholder{
+					color: #CCCCCC;
+				}
+
+				.btn{
+					height:40px;
+					font: 14px $font_first;
+					padding: 6px 22px;
+					background-color: #B5212F;
+					border-color: #660000;
+					color: #fff;
+					border-radius: 5px;
+					margin-left: 1px;
+					outline: none;
+				}
+			}
+		}
+	}
+}
