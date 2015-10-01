@@ -9,6 +9,12 @@
 			color: white;
 			&:hover, &:focus{
 				color: white;
+
+			}
+
+			&:hover{
+			 	transition: background-color 0.3s linear;
+				background-color: #9A1D29;
 			}
 
 			.glyphicon{

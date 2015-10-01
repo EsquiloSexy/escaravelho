@@ -6,10 +6,36 @@
 	#search-container__form{
 		margin: 15px;
 	}
+
+	.img_slider{
+		margin-left: 150px;
+	}
+
+	.img_slider img, .inside_imagem{
+		margin-left: 10px;
+	}
 }
 
 @media(min-width: 768px){
   #search-container__form{
 	margin-top: 54px;
+ }
+}
+
+@media(min-width: 997px){
+.img_slider:hover{
+ 	width:285px;
+ 	height: 425px;
+	 >img{
+	      width:285px;
+	      height: 425px;
+	    }
+
+    >.inside_imagem{
+	top:75%;
+		>span{
+			margin-bottom: 8px;
+		}
+ 	}
  }
 }

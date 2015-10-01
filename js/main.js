@@ -1,0 +1,27 @@
+$(document).ready(function() {
+ 
+  //Sort random function
+  function random(owlSelector){
+    owlSelector.children().sort(function(){
+        return Math.round(Math.random()) - 0.5;
+    }).each(function(){
+      $(this).appendTo(owlSelector);
+    });
+  }
+ 
+  $("#slider").owlCarousel({
+    navigation: true,
+    navigationText: [
+      '<span class="glyphicon glyphicon-triangle-left" style="font-size:15px; color:#fff; margin-top:3px;" aria-hidden="true"></span>',
+      '<span class="glyphicon glyphicon-triangle-right" style="font-size:15px; color:#fff; margin-top:3px;" aria-hidden="true"></span>'
+      ],
+    pagination: false,
+    itemsDesktop:[1370,4],
+    beforeInit : function(elem){
+      //Parameter elem pointing to $("#owl-demo")
+      random(elem);
+    }
+ 
+  });
+ 
+});
