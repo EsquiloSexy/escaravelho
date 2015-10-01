@@ -1,14 +1,14 @@
 .navbar-default{
-	background-color:#B5212F;
-	border-color: #660000;
+	background-color:$color_1;
+	border-color: $color_2;
 
 	.navbar-nav{
 	 li{
 	   	 a{			
 			font:lighter 15px $font_first;
-			color: white;
+			color: $font_color_main;
 			&:hover, &:focus{
-				color: white;
+				color: $font_color_main;
 
 			}
 
@@ -28,21 +28,21 @@
 		>.active>a{
 			border-radius: 2px;
 			background-color: #9A1D29;
-			color: #fff;
+			color: $font_color_main;
 			padding-right: 18px;
 			&:hover, &:focus{
 				background-color: #9A1D29;
-				color: #fff;
+				color: $font_color_main;
 			}
 		}
 	}
 	.navbar-toggle .icon-bar{
-		background-color: #fff;
-		border-color: #fff;
+		background-color: $font_color_main;
+		border-color: $font_color_main;
 	}
 
 	.navbar-toggle{
-		border-color: #fff;
+		border-color: $font_color_main;
 		&:hover, &:focus{
 			background:none;
 		}

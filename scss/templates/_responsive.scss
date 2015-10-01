@@ -14,12 +14,16 @@
 	.img_slider img, .inside_imagem{
 		margin-left: 10px;
 	}
+	div.box_lancamento{
+		overflow: auto;
+	}
 }
 
 @media(min-width: 768px){
   #search-container__form{
 	margin-top: 54px;
  }
+
 }
 
 @media(min-width: 994px){

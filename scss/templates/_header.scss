@@ -43,9 +43,9 @@ body{
 					height:42px;
 					font: 14px $font_first;
 					padding: 6px 22px;
-					background-color: #B5212F;
-					border-color: #660000;
-					color: #fff;
+					background-color: $color_1;
+					border-color: $color_2;
+					color: $font_color_main;
 					border-radius: 5px;
 					margin-left: 2px;
 					outline: none;

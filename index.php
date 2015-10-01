@@ -64,7 +64,6 @@
 </nav>
 
 <section id="slider" class="owl-carousel owl-theme">
-
 <div class="item img_slider">
 <div class="inside_imagem">
 <h1>Beleza americana</h1>
@@ -119,7 +118,32 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 </div>
 <img src="imgs/branquelas.jpg">
 </div>
+</section>
 
+<section id="boxs" class="container">
+	<div class="content">
+		<div id="lancamentos">
+			<div class="topo"><span class="glyphicon glyphicon-play" aria-hidden="true"></span>Lançamentos</div>
+			<div class="box_lancamento">
+			<img src="imgs/saw.jpg">
+			<h1>Jogos Mortais</h1>
+			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
+			<button class="btn btn-default hidden-xs" type="button">Ver+</button>
+			</div>
+			<div class="box_lancamento">
+			<img src="imgs/american.jpg">
+			<h1>Jogos Mortais</h1>
+			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
+			<button class="btn btn-default hidden-xs" type="button">Ver+</button>
+			</div>
+			<div class="box_lancamento">
+			<img src="imgs/te.jpg">
+			<h1>Jogos Mortais</h1>
+			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
+			<button class="btn btn-default hidden-xs" type="button">Ver+</button>
+			</div>
+		</div>
+	</div>
 </section>
 
 <script type="text/javascript" src="js/vendors/jquery.js"></script>
