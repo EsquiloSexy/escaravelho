@@ -63,7 +63,7 @@
     </div><!-- /.navbar-collapse -->
 </nav>
 
-<div id="slider" class="owl-carousel owl-theme">
+<section id="slider" class="owl-carousel owl-theme">
 
 <div class="item img_slider">
 <div class="inside_imagem">
@@ -120,7 +120,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 <img src="imgs/branquelas.jpg">
 </div>
 
-</div>
+</section>
 
 <script type="text/javascript" src="js/vendors/jquery.js"></script>
 <script type="text/javascript" src="js/vendors/bootstrap.min.js"></script>

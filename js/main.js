@@ -16,7 +16,9 @@ $(document).ready(function() {
       '<span class="glyphicon glyphicon-triangle-right" style="font-size:15px; color:#fff; margin-top:3px;" aria-hidden="true"></span>'
       ],
     pagination: false,
-    itemsDesktop:[1370,4],
+    itemsDesktop:[1500,4],
+    itemsDesktopSmall:[1100,3],
+    itemsTablet: [825,2],
     beforeInit : function(elem){
       //Parameter elem pointing to $("#owl-demo")
       random(elem);
