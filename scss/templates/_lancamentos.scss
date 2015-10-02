@@ -1,10 +1,30 @@
 section#boxs{
 	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
+
+	div.topo{
+	padding-top: 5px;
+	margin-bottom: 10px;
+	height: 50px;
+	border-radius: 5px;
+	font:lighter 19px $font_second;
+	color:$font_color_main;
+	text-align: center;
+
+	>span.title_topo{
+		font-size: 20px;
+	}
+
+	>span.glyphicon{
+		margin-right: 5px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
 	>div.content{
 		>div#lancamentos{
 			@include make-xs-column(12);
-			@include make-sm-column(12);
+			@include make-sm-column(8);
 			@include make-md-column(8);
 
 			height:490px;
@@ -26,24 +46,11 @@ section#boxs{
 				outline: none;
 			}
 			
-			>div.topo, >div.box_lancamento{
+			div.topo, div.box_lancamento{
 				background-color: $color_1;
 				border:2px solid $color_2;
 			}
 
-			>div.topo{
-				padding-top: 10px;
-				margin-bottom: 10px;
-				height: 50px;
-				border-radius: 5px;
-				font:lighter 19px $font_second;
-				color:$font_color_main;
-				text-align: center;
-
-				>span.glyphicon{
-					margin-right: 5px;
-				}
-			}
 
 			div.box_lancamento{
 				width: 95%;

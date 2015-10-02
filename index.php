@@ -123,26 +123,48 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 <section id="boxs" class="container">
 	<div class="content">
 		<div id="lancamentos">
-			<div class="topo"><span class="glyphicon glyphicon-play" aria-hidden="true"></span>Lançamentos</div>
+			<div class="topo"><span class="glyphicon glyphicon-play" aria-hidden="true"></span><span class="title_topo">Lançamentos</span></div>
 			<div class="box_lancamento">
 			<img src="imgs/saw.jpg">
 			<h1>Jogos Mortais</h1>
 			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
-			<button class="btn btn-default hidden-xs" type="button">Ver+</button>
+			<button class="btn btn-default hidden-sm hidden-xs" type="button">Ver+</button>
 			</div>
 			<div class="box_lancamento">
 			<img src="imgs/american.jpg">
-			<h1>Jogos Mortais</h1>
+			<h1>Beleza americana</h1>
 			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
-			<button class="btn btn-default hidden-xs" type="button">Ver+</button>
+			<button class="btn btn-default hidden-sm hidden-xs" type="button">Ver+</button>
 			</div>
 			<div class="box_lancamento">
 			<img src="imgs/te.jpg">
-			<h1>Jogos Mortais</h1>
+			<h1>Ted</h1>
 			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
-			<button class="btn btn-default hidden-xs" type="button">Ver+</button>
+			<button class="btn btn-default hidden-sm hidden-xs" type="button">Ver+</button>
 			</div>
 		</div>
+		<aisde id="favoritos">
+				<div class="topo"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><span class="title_topo">Favoritos</span></div>
+				<div class="item_favorito">
+					<img class="imagem_favorito" src="imgs/saw.jpg">
+					<h1>Jogos Mortais</h1>
+					<h1>Autor: <span class="autor">NULL<span></h1>
+					<h1 class="number"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 100</h1>
+				</div>
+				<div class="item_favorito">
+					<img class="imagem_favorito" src="imgs/saw.jpg">
+					<h1>Jogos Mortais</h1>
+					<h1>Autor: <span class="autor">NULL<span></h1>
+					<h1 class="number"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 100</h1>
+				</div>
+				<div class="item_favorito">
+					<img class="imagem_favorito" src="imgs/saw.jpg">
+					<h1>Jogos Mortais</h1>
+					<h1>Autor: <span class="autor">NULL<span></h1>
+					<h1 class="number"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 100</h1>
+				</div>
+
+		</aisde>
 	</div>
 </section>
 
