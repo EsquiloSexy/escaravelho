@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Escaravelho</title>
+	<link rel="icon" href="imgs/favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/vendors/bootstrap/bootstrap.css">
@@ -72,7 +73,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
-<img src="imgs/american.jpg">
+<img class="lazyOwl" src="imgs/american.jpg">
 </div>
 
 <div class="item img_slider">
@@ -83,7 +84,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
-<img src="imgs/silence.jpg">
+<img class="lazyOwl" src="imgs/silence.jpg">
 </div>
 
 <div class="item img_slider">
@@ -94,7 +95,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
-<img src="imgs/saw.jpg">
+<img class="lazyOwl" src="imgs/saw.jpg">
 </div>
 
 <div class="item img_slider">
@@ -105,7 +106,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
-<img src="imgs/te.jpg">
+<img class="lazyOwl" src="imgs/te.jpg">
 </div>
 
 <div class="item img_slider">
@@ -116,7 +117,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
-<img src="imgs/branquelas.jpg">
+<img class="lazyOwl" src="imgs/branquelas.jpg">
 </div>
 </section>
 
@@ -163,10 +164,46 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 					<h1>Autor: <span class="autor">NULL<span></h1>
 					<h1 class="number"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 100</h1>
 				</div>
-
 		</aisde>
 	</div>
 </section>
+
+<footer>
+	<div class="container">
+	  <div class="content">	
+	 <div id="widgets"> 	
+	  <div class="footer_widget">		
+		<h1>SOBRE NÓS</h1>
+		<span class="text_footer_widget">Nós somos uma empresa que presta serviços e fala sobre cinema de forma geral, algum texto, algum texto algum</span><br>
+		<button class="btn btn-default" type="button">Saiba+</button>
+		</div>
+		<div class="footer_widget offset">		
+		<h1>SERVIÇOS</h1>
+		<span class="text_footer_widget">
+			<ul>
+				<li><a href="#">Compre ingressos</a></li>
+				<li><a href="#">Cinemas</a></li>
+				<li><a href="#">Nossa loja</a></li>
+				<li><a href="#">Promoções</a></li>
+			</ul>
+		</span>
+		</div>
+		<div class="footer_widget offset">		
+		<h1>INFORMAÇÕES</h1>
+		<span class="text_footer_widget">
+			<ul>
+				<li><a href="#">Crie sua conta</a></li>
+				<li><a href="#">Fale conosco</a></li>
+				<li><a href="#">Trabalhe conosco</a></li>
+				<li><a href="#">Parceiros</a></li>
+			</ul>
+		</span>
+		</div>
+		</div>
+		
+  </div>	
+ </div>
+</footer>
 
 <script type="text/javascript" src="js/vendors/jquery.js"></script>
 <script type="text/javascript" src="js/vendors/bootstrap.min.js"></script>

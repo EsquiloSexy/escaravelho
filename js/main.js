@@ -16,6 +16,7 @@ $(document).ready(function() {
       '<span class="glyphicon glyphicon-triangle-right" style="font-size:15px; color:#fff; margin-top:3px;" aria-hidden="true"></span>'
       ],
     pagination: false,
+    lazyLoad : true,
     itemsDesktop:[1500,4],
     itemsDesktopSmall:[1100,3],
     itemsTablet: [825,2],

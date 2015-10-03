@@ -77,16 +77,9 @@
       display: block;
     }
     >.btn{
-      cursor: pointer;
-      padding:4px 15px;
-      border-radius: 4px;
       border:1px solid $color_2;
-      text-align: center;
-      font:lighter 12px $font_first;
       color: $font_color_main;
       background-color: $color_1;
-      margin-right: 10px;
-      float: right;
     }
   }
 }
