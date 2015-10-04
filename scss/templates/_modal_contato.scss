@@ -1,0 +1,28 @@
+#contato{
+	.modal-header{
+		background-color: #B5212F;
+		font-family: $font_first;
+		color: #fff;
+		border-bottom: 1px solid #660000;
+	}
+
+	.control-labe{
+		font-family: $font_first;
+	}
+
+	.form-control{
+		box-shadow: none;
+		&:focus{
+			border-color:#ccc;
+		}
+	}
+	.btn{
+		outline: none;
+		padding:7px 15px;
+		font-size: 14px;
+	    &:hover, &:focus{
+        background-color: $color_1;
+        border:1px solid $color_2;
+      }
+	}
+}

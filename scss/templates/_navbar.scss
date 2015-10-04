@@ -10,11 +10,12 @@
 			color: $font_color_main;
 			&:hover, &:focus{
 				color: $font_color_main;
+				outline: none;
 
 			}
 
 			&:hover{
-			 	transition: background-color 0.3s linear;
+			 	transition: none;
 				background-color: #9A1D29;
 			}
 

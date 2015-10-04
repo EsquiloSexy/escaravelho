@@ -55,9 +55,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <div class="container">	
       <ul class="nav navbar-nav">
-        <li><a href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+        <li class="active"><a href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-film" aria-hidden="true"></span>Filmes</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contato</a></li>
+        <li id="li_contato"><a href="#" data-toggle="modal" data-target="#contato"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contato</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Login</a></li>        
       </ul>
   </div>
@@ -194,7 +194,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 			<ul id="info">
 				<li><a href="#">Crie sua conta</a></li>
 				<li><a href="#">Fale conosco</a></li>
-				<li class="btsocial"><a href="javascript:void(0)"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Siga-nos</a></li>
+				<li><a class="btsocial" href="javascript:void(0)"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Siga-nos</a></li>
 				<li><a href="#">Parceiros</a></li>
 			</ul>
 		</span>
@@ -207,6 +207,36 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
  <a href="#">TODOS DIREITOS RESERVADOS - ESCARAVELHO CORPORATION</a>	
  </div>
 </footer>
+
+<div class="modal fade" id="contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Contato</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">Nome:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+           <div class="form-group">
+            <label for="recipient-name" class="control-label">Email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">Mensagem:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script type="text/javascript" src="js/vendors/jquery.js"></script>
 <script type="text/javascript" src="js/vendors/bootstrap.min.js"></script>

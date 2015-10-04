@@ -1,4 +1,17 @@
 $(document).ready(function() {
+
+  var active = $('ul > li.active');
+
+  $('#li_contato').click(function(){
+      active.removeClass('active');
+      $(this).addClass('active');
+  });
+
+  $('#contato').on('hidden.bs.modal', function (e) {
+   $('ul.navbar-nav > li').removeClass('active');
+   active.addClass('active');
+});
+
  
   //Sort random function
   function random(owlSelector){
