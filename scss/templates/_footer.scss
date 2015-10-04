@@ -1,21 +1,6 @@
 footer{
   background:$color_3;
 
-
-  #seguir{
-  	margin-top: -18px;
-	cursor: pointer;
-	border-radius: 4px;
-	outline: none;
-	border:1px solid $color_2;
-	color: $font_color_main;
-	background-color: $color_1;
-	padding:5px 10px;
-	>span.glyphicon{
-		margin-right: 5px;
-	}
-  }
-
   #social_media{
   	width: 100%;
   	border-top: 1px solid #333333;

@@ -191,13 +191,12 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 		<div class="footer_widget offset">		
 		<h1>INFORMAÇÕES</h1>
 		<span class="text_footer_widget">
-			<ul>
+			<ul id="info">
 				<li><a href="#">Crie sua conta</a></li>
 				<li><a href="#">Fale conosco</a></li>
-				<li><a href="#">Trabalhe conosco</a></li>
+				<li class="btsocial"><a href="javascript:void(0)"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Siga-nos</a></li>
 				<li><a href="#">Parceiros</a></li>
 			</ul>
-			<button class="btn btn-default btsocial" id="seguir" type="button"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Siga-nos</button>
 		</span>
 		</div>
 		</div>
@@ -205,7 +204,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
   </div>	
  </div>
  <div id="social_media">
- <a href="javascript:void(0)">TODOS DIREITOS RESERVADOS - ESCARAVELHO CORPORATION</a>	
+ <a href="#">TODOS DIREITOS RESERVADOS - ESCARAVELHO CORPORATION</a>	
  </div>
 </footer>
 
