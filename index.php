@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/vendors/bootstrap/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/vendors/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="css/vendors/owl-carousel/owl.theme.css">
-	<link rel="stylesheet" type="text/css" href="css/vendors/owl-carousel/owl.transitions.css">
+	<link rel="stylesheet" type="text/css" href="css/vendors/social/arthref.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <style type="text/css">
 		@font-face {
@@ -197,17 +197,22 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 				<li><a href="#">Trabalhe conosco</a></li>
 				<li><a href="#">Parceiros</a></li>
 			</ul>
+			<button class="btn btn-default btsocial" id="seguir" type="button"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Siga-nos</button>
 		</span>
 		</div>
 		</div>
 		
   </div>	
  </div>
+ <div id="social_media">
+ <a href="javascript:void(0)">TODOS DIREITOS RESERVADOS - ESCARAVELHO CORPORATION</a>	
+ </div>
 </footer>
 
 <script type="text/javascript" src="js/vendors/jquery.js"></script>
 <script type="text/javascript" src="js/vendors/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/vendors/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/vendors/socialProfiles.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

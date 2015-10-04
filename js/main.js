@@ -26,5 +26,15 @@ $(document).ready(function() {
     }
  
   });
- 
+
+   $('.btsocial').socialProfiles({
+  email: '#',
+  behance: '#',
+  facebook: '#',
+  twitter: '#',
+  pinterest: '#',
+  dribbble: '#',
+  scoutzie: '#'
+  });
+   
 });

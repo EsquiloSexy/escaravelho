@@ -4,7 +4,8 @@
 
 	.navbar-nav{
 	 li{
-	   	 a{			
+	   	 a{
+	   	 	transition: background-color 0.3s linear;			
 			font:lighter 15px $font_first;
 			color: $font_color_main;
 			&:hover, &:focus{
@@ -44,7 +45,7 @@
 	.navbar-toggle{
 		border-color: $font_color_main;
 		&:hover, &:focus{
-			background:none;
+			background-color:#9A1D29;
 		}
 	}
 	.navbar-collapse{
