@@ -1,9 +1,13 @@
-#contato{
+#contato, #login{
 	.modal-header{
 		background-color: #B5212F;
 		font-family: $font_first;
 		color: #fff;
 		border-bottom: 1px solid #660000;
+	}
+
+	button.close{
+		outline: none;
 	}
 
 	.control-labe{

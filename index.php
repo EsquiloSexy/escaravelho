@@ -57,8 +57,8 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-film" aria-hidden="true"></span>Filmes</a></li>
-        <li id="li_contato"><a href="#" data-toggle="modal" data-target="#contato"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contato</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Login</a></li>        
+        <li class="li_click"><a href="#" data-toggle="modal" data-target="#contato"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contato</a></li>
+        <li class="li_click"><a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Login</a></li>        
       </ul>
   </div>
     </div><!-- /.navbar-collapse -->
@@ -208,7 +208,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
  </div>
 </footer>
 
-<div class="modal fade" id="contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+<div class="modal fade" id="contato" tabindex="-1" role="dialog" aria-labelledby="contato">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -223,7 +223,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
           </div>
            <div class="form-group">
             <label for="recipient-name" class="control-label">Email:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input type="email" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
             <label for="message-text" class="control-label">Mensagem:</label>
@@ -233,6 +233,32 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Logar</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">Email:</label>
+            <input type="email" class="form-control" id="recipient-name">
+          </div>
+           <div class="form-group">
+            <label for="recipient-name" class="control-label">Senha:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Logar</button>
       </div>
     </div>
   </div>

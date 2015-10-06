@@ -10,6 +10,7 @@
 			color: $font_color_main;
 			&:hover, &:focus{
 				color: $font_color_main;
+				background-color: none;
 				outline: none;
 
 			}
