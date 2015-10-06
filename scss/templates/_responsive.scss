@@ -8,6 +8,9 @@
 	}
 
 	.img_slider{
+		&:hover{
+			box-shadow: none;
+		}
 		margin-left: 150px;
 	}
 

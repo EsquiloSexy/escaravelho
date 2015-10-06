@@ -1,9 +1,10 @@
 #contato, #login{
+	font-family: $font_second;
 	.modal-header{
-		background-color: #B5212F;
+		background-color: $color_1;
 		font-family: $font_first;
 		color: #fff;
-		border-bottom: 1px solid #660000;
+		border-bottom: 1px solid $color_2;
 	}
 
 	button.close{
@@ -28,5 +29,10 @@
         background-color: $color_1;
         border:1px solid $color_2;
       }
+	}
+
+	#btn-register{
+		background-color: #333;
+		border: 1px solid #000;
 	}
 }

@@ -222,7 +222,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
             <input type="text" class="form-control" id="recipient-name">
           </div>
            <div class="form-group">
-            <label for="recipient-name" class="control-label">Email:</label>
+            <label for="recipient-name" class="control-label">E-mail:</label>
             <input type="email" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
@@ -248,16 +248,17 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
       <div class="modal-body">
         <form>
           <div class="form-group">
-            <label for="recipient-name" class="control-label">Email:</label>
+            <label for="recipient-name" class="control-label">E-mail:</label>
             <input type="email" class="form-control" id="recipient-name">
           </div>
            <div class="form-group">
             <label for="recipient-name" class="control-label">Senha:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input type="password" class="form-control" id="recipient-name">
           </div>
         </form>
       </div>
       <div class="modal-footer">
+      	<button type="button" id="btn-register" class="btn btn-primary">Registrar</button>
         <button type="button" class="btn btn-primary">Logar</button>
       </div>
     </div>
