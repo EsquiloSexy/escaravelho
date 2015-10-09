@@ -1,0 +1,45 @@
+#comentarios{
+	@include make-md-column(12);
+	padding:0;
+	background-color: $color_3;
+	border-radius: 2px;
+	margin-bottom: 100px;
+	>div#header_post{
+		width:100%;
+		height:50px;
+		background-color: $color_1;
+		border: 1px solid $color_2;
+		border-radius: 2px;
+		padding: 11px 25px;
+		font:lighter 20px $font_first;
+		text-align: center;
+		color:$font_color_main;
+	}
+
+	#content_comentarios{
+		padding:30px 50px;
+	}
+
+	.comentario{
+		height:119px;
+		background-color:$color_1;
+		border:2px solid $color_2;
+		overflow: auto;
+		padding:5px 10px;
+		
+		>p{
+			color:$font_color_main;
+			font-weight: bold;
+		}
+
+		>img{
+			width: 110px;
+			height: 105px;
+			border:1px solid $color_2;
+			border-radius: 2px;
+			float: left;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+	}
+}
