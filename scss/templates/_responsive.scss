@@ -27,12 +27,41 @@
 	#content_comentarios{
 		padding:0;
 	}
+	#comentarios #content_comentarios{
+		padding:15px 25px;
+	}
+
+	#comentar textarea{
+		width:100%;
+	}
+
+	span#icons{
+		margin:5px 0;
+		float: left;
+	}
 }
 
 @media(min-width: 768px){
   #search-container__form{
 	margin-top: 54px;
  }
+
+	span#icons{
+	float: right;
+	font-weight: lighter;
+	>.glyphicon-comment{
+		margin-left: 5px;
+	}
+	>.glyphicon-thumbs-up{
+		cursor: pointer;
+		&:hover{
+			color:$color_2;
+		}
+	}
+}
+ 	#content_comentarios{
+		padding:15px 30px;
+	}
 
 }
 
@@ -52,4 +81,5 @@
 		}
  	}
  }
+
 }

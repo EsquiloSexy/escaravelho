@@ -55,7 +55,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <div class="container">	
       <ul class="nav navbar-nav">
-        <li><a href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+        <li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-film" aria-hidden="true"></span>Filmes</a></li>
         <li class="li_click"><a href="#" data-toggle="modal" data-target="#contato"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contato</a></li>
         <li class="li_click"><a href="#" data-toggle="modal" data-target="#login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Login</a></li>        
@@ -76,11 +76,38 @@
       PUBLICIDADE
     </section>
     <section id="comentarios">
-      <div id="header_post"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comentários</div>
-        <div id="content_comentarios">
+      <div id="header_post"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comentários:</div>
+        <div id="content_comentarios" class="clearfix">
           <div class="comentario">
             <img src="imgs/default.jpg">
-            <p>Paulo</p>
+            <p><a href="#">Paulo Roberto</a><span id="icons"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 140 <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 1</span></p>
+            <span><b>Comentário: </b>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</span>
+          </div>
+
+            <div class="comentario resposta">
+            <img src="imgs/default.jpg">
+            <p><a href="#">Paulo Roberto</a><span id="icons"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 140</span></p>
+            <span><b>Comentário: </b>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto </span>
+          </div>
+
+            <div class="comentario">
+            <img src="imgs/default.jpg">
+            <p><a href="#">Paulo Roberto</a><span id="icons"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 140 <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 1</span></p>
+            <span><b>Comentário: </b>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</span>
+          </div>
+          
+          <div id="comentar">
+            <img class="hidden-xs" src="imgs/default.jpg">
+            <textarea placeholder="Comentar"></textarea>
           </div>
         </div>
     </div>

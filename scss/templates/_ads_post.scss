@@ -1,8 +1,6 @@
 section#ads{
 	@include make-md-column(3);
 	@include make-md-column-offset(1);
-	@include make-sm-column(3);
-	@include make-sm-column-offset(1);
 	max-height: 580px;
 	background-color: $color_3;
 	border-radius: 2px;

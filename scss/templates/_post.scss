@@ -10,7 +10,6 @@ div.container{
 
 	section#post{
 		@include make-md-column(8);
-		@include make-sm-column(8);
 		height: auto;
 		background-color: $color_3;
 		border-radius: 2px;
@@ -22,7 +21,7 @@ div.container{
 			background-color: $color_1;
 			border: 1px solid $color_2;
 			border-radius: 2px;
-			padding: 11px 25px;
+			padding: 11px 10px;
 			font:lighter 20px $font_first;
 			color: $font_color_main;
 			overflow: auto;
@@ -35,6 +34,9 @@ div.container{
 				}
 				>.glyphicon-comment{
 					margin-left: 15px;
+				}
+				>.glyphicon-heart:hover{
+					color:$color_2;
 				}
 			}
 		}

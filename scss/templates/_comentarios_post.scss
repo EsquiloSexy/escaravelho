@@ -16,20 +16,71 @@
 		color:$font_color_main;
 	}
 
-	#content_comentarios{
-		padding:30px 50px;
+	
+	.resposta{
+		width:95%;
+		background-color: !important #A51D2B;
+		float: right;
 	}
 
+	#comentar{
+		width:100%;
+		height: 100px;
+		background-color: #EEEEEE;
+		border:2px solid #CCCCCC;
+		border-radius: 2px;
+		clear: both;
+		padding:5px 10px;
+		overflow: hidden;
+		>img{
+			width:92px;
+			height: 86px;
+			border-radius: 2px;
+			cursor: pointer;
+			margin-right: 10px;
+			float: left;
+		}
+		>textarea{
+			width:90%;
+			height: 85px;
+			float: right;
+			outline: none;
+			border: 2px solid #DDDDDD;
+			border-radius: 2px;
+			resize: none;
+			font:lighter 14px $font_second;
+			color: #555555;
+			padding-left: 2px;
+		}
+	}
+
+	
 	.comentario{
-		height:119px;
+		max-height: 130px;
 		background-color:$color_1;
 		border:2px solid $color_2;
+		border-radius: 2px;
 		overflow: auto;
 		padding:5px 10px;
-		
-		>p{
+		font:lighter 14px $font_second;
+		color:$font_color_main;
+		margin-bottom: 15px;
+		clear: both;
+
+		a{
 			color:$font_color_main;
+		}
+
+		>p{
 			font-weight: bold;
+			margin-bottom: 5px;
+		}
+
+		>span{
+			color: #EDEDED;
+			>b{
+				color:#fff;
+			}
 		}
 
 		>img{
@@ -41,5 +92,9 @@
 			margin-right: 10px;
 			cursor: pointer;
 		}
+	}
+
+	.comentario:last-child{
+		margin-bottom: 0;
 	}
 }
