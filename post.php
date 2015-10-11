@@ -104,9 +104,10 @@ texto texto texto texto texto texto texto texto texto texto texto texto texto te
 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
 texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto</span>
           </div>
+
           
           <div id="comentar">
-            <img class="hidden-xs" src="imgs/default.jpg">
+            <img src="imgs/default.jpg">
             <textarea placeholder="Comentar"></textarea>
           </div>
         </div>

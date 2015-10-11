@@ -31,12 +31,7 @@
 		padding:15px 25px;
 	}
 
-	#comentar textarea{
-		width:100%;
-	}
-
 	span#icons{
-		margin:5px 0;
 		float: left;
 	}
 }
@@ -51,12 +46,6 @@
 	font-weight: lighter;
 	>.glyphicon-comment{
 		margin-left: 5px;
-	}
-	>.glyphicon-thumbs-up{
-		cursor: pointer;
-		&:hover{
-			color:$color_2;
-		}
 	}
 }
  	#content_comentarios{

@@ -4,6 +4,19 @@
 	background-color: $color_3;
 	border-radius: 2px;
 	margin-bottom: 100px;
+	
+	.glyphicon-thumbs-up{
+		cursor: pointer;
+		&:hover{
+			color:$color_2;
+		}
+	}
+
+	#icons{
+		margin-right: 5px;
+		display: block;
+	}
+
 	>div#header_post{
 		width:100%;
 		height:50px;
@@ -32,6 +45,8 @@
 		clear: both;
 		padding:5px 10px;
 		overflow: hidden;
+		position: relative;
+
 		>img{
 			width:92px;
 			height: 86px;
@@ -41,9 +56,9 @@
 			float: left;
 		}
 		>textarea{
-			width:90%;
+			width:89%;
 			height: 85px;
-			float: right;
+			position: absolute;
 			outline: none;
 			border: 2px solid #DDDDDD;
 			border-radius: 2px;
@@ -66,6 +81,7 @@
 		color:$font_color_main;
 		margin-bottom: 15px;
 		clear: both;
+		display: block;
 
 		a{
 			color:$font_color_main;
