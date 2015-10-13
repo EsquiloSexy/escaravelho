@@ -29,12 +29,6 @@
 		color:$font_color_main;
 	}
 
-	
-	.resposta{
-		width:95%;
-		background-color: !important #A51D2B;
-		float: right;
-	}
 
 	#comentar{
 		width:100%;
@@ -112,5 +106,11 @@
 
 	.comentario:last-child{
 		margin-bottom: 0;
+	}
+
+	.resposta{
+		width:95%;
+		background-color: #A51D2B;
+		float: right;
 	}
 }
