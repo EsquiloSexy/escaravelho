@@ -192,7 +192,7 @@ Os irmãos Marcus e Kevin Copeland são detetives do FBI que estão com problema
 		<h1>INFORMAÇÕES</h1>
 		<span class="text_footer_widget">
 			<ul id="info">
-				<li><a href="#">Crie sua conta</a></li>
+				<li><a href="register.php">Crie sua conta</a></li>
 				<li><a href="#">Fale conosco</a></li>
 				<li><a class="btsocial" href="javascript:void(0)"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Siga-nos</a></li>
 				<li><a href="#">Parceiros</a></li>
@@ -204,7 +204,9 @@ Os irmãos Marcus e Kevin Copeland são detetives do FBI que estão com problema
   </div>	
  </div>
  <div id="social_media">
- <a href="#">TODOS DIREITOS RESERVADOS - ESCARAVELHO CORPORATION - 2015</a>	
+ <!-- O nome em inglês (corporation) e o outro em português (Escaravelho) não fica legal -->
+ <!-- Optei por colocar tudo em português -->
+ <a href="#">TODOS DIREITOS RESERVADOS - 2015 - CORPORAÇÃO ESCARAVELHO</a>	
  </div>
 </footer>
 

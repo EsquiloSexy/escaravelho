@@ -104,7 +104,7 @@
 	 <div id="widgets"> 	
 	  <div class="footer_widget">		
 		<h1>SOBRE NÓS</h1>
-		<span class="text_footer_widget">Nós somos uma empresa que presta serviços e fala sobre cinema de forma geral, algum texto, algum texto algum</span><br>
+		<span class="text_footer_widget">Somos uma empresa apaixonada por cinema. Nos erguemos para incentivar essa bela cultura de filmes.</span><br>
 		<button class="btn btn-default" type="button">Saiba+</button>
 		</div>
 		<div class="footer_widget offset">		
@@ -122,7 +122,7 @@
 		<h1>INFORMAÇÕES</h1>
 		<span class="text_footer_widget">
 			<ul id="info">
-				<li><a href="#">Crie sua conta</a></li>
+				<li><a href="register.php">Crie sua conta</a></li>
 				<li><a href="#">Fale conosco</a></li>
 				<li><a class="btsocial" href="javascript:void(0)"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Siga-nos</a></li>
 				<li><a href="#">Parceiros</a></li>
@@ -134,7 +134,7 @@
   </div>	
  </div>
  <div id="social_media">
- <a href="#">TODOS DIREITOS RESERVADOS - ESCARAVELHO CORPORATION</a>	
+ <a href="#">TODOS DIREITOS RESERVADOS - 2015 - CORPORAÇÃO ESCARAVELHO</a>	
  </div>
 </footer>
 
