@@ -258,7 +258,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
         </form>
       </div>
       <div class="modal-footer">
-      	<button type="button" id="btn-register" class="btn btn-primary">Registrar</button>
+        <a href="register.php"><button type="button" id="btn-register" class="btn btn-primary">Registrar</button></a>
         <button type="button" class="btn btn-primary">Logar</button>
       </div>
     </div>
