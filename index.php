@@ -69,7 +69,7 @@
 <div class="inside_imagem">
 <h1>Beleza americana</h1>
 <span>
-Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes.	
+Lester Burham não aguenta mais o emprego e se sente impotente perante sua vida...
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
@@ -80,7 +80,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 <div class="inside_imagem">
 <h1>Silêncio dos inocentes</h1>
 <span>
-Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes.	
+A agente do FBI, Clarice Starling é ordenada a encontrar um assassino que arranca a pele de suas vítimas...
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
@@ -91,7 +91,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 <div class="inside_imagem">
 <h1>Jogos Mortais</h1>
 <span>
-Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes.	
+Jigsaw é um assassino que possui uma marca registrada: ele deixa em suas vítimas uma cicatriz em forma de...
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
@@ -102,7 +102,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 <div class="inside_imagem">
 <h1>Ted</h1>
 <span>
-Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes.	
+O pequeno John tem apenas um pedido a fazer ao Papai Noel: que seu ursinho de pelúcia, Ted, ganhe vida....	
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
@@ -113,7 +113,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 <div class="inside_imagem">
 <h1>As Branquelas</h1>
 <span>
-Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes.	
+Os irmãos Marcus e Kevin Copeland são detetives do FBI que estão com problemas no trabalho...
 </span>
 <button class="btn btn-default" type="button">Ver+</button>
 </div>
@@ -128,19 +128,19 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 			<div class="box_lancamento">
 			<img src="imgs/saw.jpg">
 			<h1>Jogos Mortais</h1>
-			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
+			<h1>Descrição: <span class="desc">Jigsaw é um assassino que possui uma marca registrada: ele deixa em suas vítimas uma cicatriz em forma de [...]</span></h1>
 			<button class="btn btn-default hidden-sm hidden-xs" type="button">Ver+</button>
 			</div>
 			<div class="box_lancamento">
 			<img src="imgs/american.jpg">
 			<h1>Beleza Americana</h1>
-			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
+			<h1>Descrição: <span class="desc">Lester Burham não aguenta mais o emprego e se sente impotente perante sua vida [...]</span></h1>
 			<button class="btn btn-default hidden-sm hidden-xs" type="button">Ver+</button>
 			</div>
 			<div class="box_lancamento">
 			<img src="imgs/te.jpg">
 			<h1>Ted</h1>
-			<h1>Descrição: <span class="desc">Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Inocentes mes, Poderia ter sido apenas mais um [...]</span></h1>
+			<h1>Descrição: <span class="desc">O pequeno John tem apenas um pedido a fazer ao Papai Noel: que seu ursinho de pelúcia, Ted, ganhe vida [...]</span></h1>
 			<button class="btn btn-default hidden-sm hidden-xs" type="button">Ver+</button>
 			</div>
 		</div>
@@ -149,19 +149,19 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 				<div class="item_favorito">
 					<img class="imagem_favorito" src="imgs/saw.jpg">
 					<h1>Jogos Mortais</h1>
-					<h1>Autor: <span class="autor">NULL<span></h1>
+					<h1>Dirigido por: <span class="autor">James Wan<span></h1>
 					<h1 class="number"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 100</h1>
 				</div>
 				<div class="item_favorito">
 					<img class="imagem_favorito" src="imgs/american.jpg">
 					<h1>Beleza Americana</h1>
-					<h1>Autor: <span class="autor">NULL<span></h1>
+					<h1>Dirigido por: <span class="autor">Sam Mendes<span></h1>
 					<h1 class="number"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 100</h1>
 				</div>
 				<div class="item_favorito">
 					<img class="imagem_favorito" src="imgs/te.jpg">
 					<h1>Ted</h1>
-					<h1>Autor: <span class="autor">NULL<span></h1>
+					<h1>Dirigido por: <span class="autor">Seth MacFarlane<span></h1>
 					<h1 class="number"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 100</h1>
 				</div>
 		</aisde>
@@ -174,7 +174,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
 	 <div id="widgets"> 	
 	  <div class="footer_widget">		
 		<h1>SOBRE NÓS</h1>
-		<span class="text_footer_widget">Nós somos uma empresa que presta serviços e fala sobre cinema de forma geral, algum texto, algum texto algum</span><br>
+		<span class="text_footer_widget">Somos uma empresa apaixonada por cinema. Nos erguemos para incentivar essa bela cultura de filmes. </span><br>
 		<button class="btn btn-default" type="button">Saiba+</button>
 		</div>
 		<div class="footer_widget offset">		
@@ -204,7 +204,7 @@ Poderia ter sido apenas mais um aaa  filme policial, mas O Silêncio dos aa  Ino
   </div>	
  </div>
  <div id="social_media">
- <a href="#">TODOS DIREITOS RESERVADOS - ESCARAVELHO CORPORATION</a>	
+ <a href="#">TODOS DIREITOS RESERVADOS - ESCARAVELHO CORPORATION - 2015</a>	
  </div>
 </footer>
 
